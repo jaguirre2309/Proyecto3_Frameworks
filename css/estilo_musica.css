@@ -1,0 +1,49 @@
+.navbar{
+	min-height: 4rem;
+}
+
+.redes-sociales{
+	position: relative;
+}
+
+.img-social{
+	width: 40px;
+	height: 40px;
+}
+
+.imgCont1{
+	width: 200px;
+}
+
+.contenido{
+	padding: 20px;
+	background-color: grey;
+}
+
+.contMed{
+	margin: 10px;
+}
+
+.imgTxtA{
+	width: 100px;
+}
+
+.imgS{
+	width: 50px;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+	.redes-sociales{
+		width: 100%;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
