@@ -4,18 +4,19 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width:device-width,user-scalable_no">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/estilo_musica.css">
-	<title>Sistema de Rejilla Clases y Reglas</title>
+	<link rel="stylesheet" href="css/musica.css">
+	<title>Musica</title>
 </head>
-	<body class="body-musica">
+	<body>
 		<div class="container">
 		  <header>
-		    <div class="row affix-top">
-			  <div class="col-8">
-			    <img src="img/logo.png" class="logo-img">	
+		    <div class="row affix-top nave">
+			  <div class="col-lg-6 col-md-6 col-sm-6 logo">
+			    <a href=""><img src="img/logo.jpg" class="logo-img"></a>
 			  </div>
-	    	  <div class="col-3 redes-sociales">
-			    <img src="img/face.png" class="rounded img-social">
+
+	    	  <div class="col-lg-6 col-md-6 col-sm-6 redes-sociales">
+			    <img src="img/face.png" class="rounded img-social hoverable">
 				<img src="img/twitter.png" class="rounded img-social">
 				<img src="img/insta.png" class="rounded img-social">
 				<img src="img/pint.png" class="rounded img-social">
@@ -24,48 +25,56 @@
 	        </div>
 		  </header>
 		  
-		  <nav class="nav nav-pills nav-justified">
-			  <a class="nav-item nav-link active" href="#">Inicio</a>
-			  <a class="nav-item nav-link" href="#">Artistas</a>
-			  <a class="nav-item nav-link" href="#">Grupos</a>
-			  <a class="nav-item nav-link" href="#">Top 5</a>
-			  <a class="nav-item nav-link" href="#">Letras</a>
-			  <a class="nav-item nav-link" href="#">Acordes</a>
-			</nav>
+		  	<div class="row nv bg-primary">
+		  		<div class="col-lg-2 col-md-4"><a href=""><button type="button" class="btn btn-primary btn-lg btn-block">Inicio</button></a></div>
+		  		<div class="col-lg-2 col-md-4"><button type="button" class="btn btn-primary btn-lg btn-block">Artistas</button></div>
+		  		<div class="col-lg-2 col-md-4"><button type="button" class="btn btn-primary btn-lg btn-block">Grupos</button></div>
+		  		<div class="col-lg-2 col-md-4"><button type="button" class="btn btn-primary btn-lg btn-block">Top 5</button></div>
+		  		<div class="col-lg-2 col-md-4"><button type="button" class="btn btn-primary btn-lg btn-block">Ranking</button></div>
+		  		<div class="col-lg-2 col-md-4"><button type="button" class="btn btn-primary btn-lg btn-block">Conciertos</button></div>
+			</div>  
+		  
 			
-			<div class="row justified-content-end">
-				<div class="col-9 contenido">
-				  <div class="media contMed">
-					<div class="media-body">
-					  <h5 class="mt-0">Kings Of Leon</h5>
-					  Kings of Leon es un grupo de música estadounidense de rock fundado en Nashville, Tennessee, en 1999. Está formada por tres hermanos, Caleb, Nathan y Jared Followill y su primo Matthew Followill.
-					</div>
-					<img class="imgCont1" src="img/kol.jpeg" alt="Kings ov Leon">
-				  </div>
-				  <div class="row">
-				  	<img src="img/user.png" class="imgTxtA">
-				    <div class="form-group">
-				  	  <textarea class="form-control-md" id="exampleFormControlTextarea1"></textarea>
-				    </div>
-				  </div>
+			<div class="row">
+				<div class="col-lg-9 col-md-12 col-sm-12 contenido bg-light p-3">
 
-				  <div class="media contMed">
-				  	<img class="imgCont1" src="img/kol.jpeg" alt="Kings ov Leon">
-					<div class="media-body">
-					  <h5 class="mt-0">Kings Of Leon</h5>
-					  Kings of Leon es un grupo de música estadounidense de rock fundado en Nashville, Tennessee, en 1999. Está formada por tres hermanos, Caleb, Nathan y Jared Followill y su primo Matthew Followill.
+					<div class="row">
+					 	<div class="col-lg-7 col-md-12 col-sm">
+					  		<h5>Kings Of Leon</h5>
+							Kings of Leon es un grupo de música estadounidense de rock fundado en Nashville, Tennessee, en 1999. Está formada por tres hermanos, Caleb, Nathan y Jared Followill y su primo Matthew Followill. Cada miembro de la familia es conocido por su segundo nombre en vez del primero.1 El nombre del grupo deriva del padre y abuelo de Nathan, Caleb y Jared, los dos llamados Leon. La música de la banda en sus comienzos era una mezcla animada de rock sureño e influencias de garage rock, pero la banda se ha ido expandiendo gradualmente a través de los años para incluir una variedad de géneros mas alternativos y también el sonido arena rock.
+					  	</div>
+					  	<div class="col-lg-5 col-md-12 d-flex align-items-center">
+					  			<img class="imgCont" src="img/kol.jpeg" alt="Kings ov Leon">
+					  	</div>
 					</div>
-				  </div>
-				  <div class="row">
-				  	<img src="img/user.png" class="imgTxtA">
-				    <div class="form-group">
-				  	  <textarea class="form-control-md" id="exampleFormControlTextarea1"></textarea>
-				    </div>
-				  </div>
+				  	</br>
+					<div class="input-group">
+						<div class="input-group-prepend">
+					    	<img src="img/user.png" class="imgS">
+					  	</div>
+					  	<textarea type="text" class="form-control" placeholder="Buscar"></textarea>
+					</div>
+					</br>
+					</br>
+					<div class="row">
+						<div class="col-lg-5 col-md-12 align-self-center">
+							<img class="imgCont" src="img/lkp.jpg" alt="Kings ov Leon">
+						</div>
+						<div class="col-lg-7 col-md-12"> 
+							<h5>Linkin Park</h5>
+							Linkin Park es una banda estadounidense de rock alternativo procedente de Agoura Hills, California. Formada en 1996, el grupo estuvo inicialmente integrado por Mike Shinoda, Dave Farrell, Joe Hahn, Brad Delson, Rob Bourdon y Mark Wakefield, este último como voz principal. La banda inició en ese mismo año sus primeros trabajos musicales de manera independiente y posterior a esto grabaron su primer material llamado Xero; sin embargo no tuvieron gran éxito en la búsqueda de un sello discográfico ya que nadie mostró interés por su trabajo, lo que ocasionó la renuncia de Mark Wakefield.
+						</div>
+					</div>
+				  	</br>
+				  	<div class="input-group">
+						<div class="input-group-prepend">
+					    	<img src="img/user.png" class="imgS">
+					  	</div>
+					  	<textarea type="text" class="form-control" placeholder="Buscar"></textarea>
+					</div>
 				</div>
 
-				<div class="col-3 contenido">
-					<div>
+				<div class="col-lg-3 col-sm contenido">
 					<div class="input-group">
 					  <div class="input-group-prepend">
 					    <img src="img/user.svg" class="imgS">
@@ -74,11 +83,21 @@
 					</div>
 				</br>
 					<div class="list-group row">
-					  <button type="button" class="list-group-item list-group-item-action">Opción 1</button>
-					  <button type="button" class="list-group-item list-group-item-action">Opción</button>
-					  <button type="button" class="list-group-item list-group-item-action">Opción</button>
-					  <button type="button" class="list-group-item list-group-item-action">Opción</button>
-					  <button type="button" class="list-group-item list-group-item-action">Opción</button>
+					  <a href=""><button type="button" class="btn btn-light btn-block">Lo mas escuchado</button></a>
+					  <a href=""><button type="button" class="btn btn-light btn-block">Artistas del momento</button></a>
+					  <a href=""><button type="button" class="btn btn-light btn-block">Generos musicales</button></a>
+					  <a href=""><button type="button" class="btn btn-light btn-block">Ranking mundial</button></a>
+					  <a href=""><button type="button" class="btn btn-light btn-block">Música clasica</button></a>
+					  <a href=""><button type="button" class="btn btn-light btn-block">Premios musicales</button></a>
+					  <a href=""><button type="button" class="btn btn-light btn-block">Paises impulsores</button></a>
+					  <a href=""><button type="button" class="btn btn-light btn-block">La voz de la gente</button></a>
+					  <a href=""><button type="button" class="btn btn-light btn-block">Los mas votados</button></a>
+					  <a href=""><button type="button" class="btn btn-light btn-block">Tendencias</button></a>
+					  <a href=""><button type="button" class="btn btn-light btn-block">concurso de talento</button></a>
+					  <a href=""><button type="button" class="btn btn-light btn-block">Competencias urbanas</button></a>
+					  <a href=""><button type="button" class="btn btn-light btn-block">Musicales</button></a>
+					  <a href=""><button type="button" class="btn btn-light btn-block">Teatro musical</button></a>
+					  <a href=""><button type="button" class="btn btn-light btn-block">Artistas destacados</button></a>
 					</div>
 				</div>
 			</div>
