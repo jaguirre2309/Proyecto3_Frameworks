@@ -1,0 +1,11 @@
+body{
+	background-image: url(../img/wcomida.jpg);
+}
+
+.imgCom{
+	width: 60px;
+}
+
+div .callout{
+	background-color:rgba(255,255,255,0.6);
+}
